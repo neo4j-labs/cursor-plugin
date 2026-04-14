@@ -1,0 +1,12 @@
+{
+  "name": "neo4j",
+  "displayName": "Neo4j",
+  "version": "0.1.0",
+  "description": "Neo4j plugin for Cursor: the official Neo4j MCP server (via uvx) plus vendored skills for Cypher upgrades, driver migrations, and CLI tools.",
+  "author": {
+    "name": "Jeremy Adams"
+  },
+  "license": "MIT",
+  "keywords": ["neo4j", "cypher", "graph", "database", "mcp", "auradb"],
+  "logo": "assets/logo.svg"
+}

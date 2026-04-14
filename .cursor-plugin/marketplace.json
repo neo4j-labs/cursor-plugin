@@ -1,0 +1,19 @@
+{
+  "name": "neo4j-plugins",
+  "owner": {
+    "name": "Neo4j",
+    "email": "devrel@neo4j.com"
+  },
+  "metadata": {
+    "description": "Neo4j plugins for skills and MCP servers",
+    "version": "0.1.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "neo4j",
+      "source": "neo4j",
+      "description": "Neo4j plugin: official MCP server (via uvx) plus skills for Cypher upgrades, driver migrations, and CLI tools"
+    }
+  ]
+}

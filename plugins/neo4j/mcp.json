@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "neo4j": {
+      "command": "uvx",
+      "args": ["neo4j-mcp-server>=1.5,<2"],
+      "env": {
+        "NEO4J_URI": "${env:NEO4J_URI}",
+        "NEO4J_USERNAME": "${env:NEO4J_USERNAME}",
+        "NEO4J_PASSWORD": "${env:NEO4J_PASSWORD}",
+        "NEO4J_DATABASE": "${env:NEO4J_DATABASE}",
+        "NEO4J_READ_ONLY": "${env:NEO4J_READ_ONLY}"
+      }
+    }
+  }
+}
