@@ -1,5 +1,7 @@
 # Neo4j Cursor plugins
 
+> This is an experimental Neo4j Labs project and not part of Neo4j's supported product lineup. See the [Neo4j Labs disclaimer](./LABS_DISCLAIMER.txt).
+
 A multi-plugin [Cursor](https://cursor.com) repository maintained by Neo4j. Though it only has one plugin today, more may be added in the future. Register it as a **custom marketplace** to install every plugin from the Plugins panel, or install plugins individually.
 
 ## Plugins
